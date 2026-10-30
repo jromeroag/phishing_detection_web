@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Descarga e instala Escudo Transparente, una extensión académica que ayuda a reconocer señales de phishing mientras navegas.">
+  <meta name="theme-color" content="#071a2f">
+  <title>Escudo Transparente — Descarga y manual</title>
+  <link rel="icon" href="assets/escudo-128.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Escudo Transparente, inicio">
+      <img src="assets/escudo-128.png" alt="" width="44" height="44">
+      <span>Escudo <strong>Transparente</strong></span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <a href="#instalar">Instalación</a>
+      <a href="#usar">Uso</a>
+      <a href="#privacidad">Privacidad</a>
+      <a class="nav-download" href="downloads/Escudo-Transparente-v9.6.0.zip" download>Descargar</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Prototipo académico · Versión 9.6.0</p>
+        <h1>Navega con señales claras frente al phishing.</h1>
+        <p class="hero-lead">Escudo Transparente revisa automáticamente la dirección que visitas y explica, en palabras sencillas, por qué un enlace merece confianza o precaución.</p>
+        <div class="hero-actions">
+          <a class="button primary download-link" href="downloads/Escudo-Transparente-v9.6.0.zip" download>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 18v2h14v-2"/></svg>
+            Descargar extensión
+          </a>
+          <a class="button secondary" href="#instalar">Ver cómo instalar</a>
+        </div>
+        <ul class="quick-facts" aria-label="Información de descarga">
+          <li>Chrome y Edge</li>
+          <li>49 KB</li>
+          <li>Sin claves API en el navegador</li>
+        </ul>
+      </div>
+
+      <div class="product-demo" aria-label="Ejemplo del resultado de Escudo Transparente">
+        <div class="browser-bar"><span></span><span></span><span></span><div>example.com</div></div>
+        <div class="demo-body">
+          <div class="demo-heading">
+            <img src="assets/escudo-128.png" alt="" width="54" height="54">
+            <div><span class="pill safe">Verde</span><h2>Sin señales evidentes</h2></div>
+          </div>
+          <p>No se encontraron indicios en las reglas y reportes disponibles.</p>
+          <div class="signal-list">
+            <div><span class="signal-dot safe-dot"></span><strong>Google Safe Browsing</strong><small>Sin coincidencias</small></div>
+            <div><span class="signal-dot safe-dot"></span><strong>VirusTotal</strong><small>Sin detecciones conocidas</small></div>
+            <div><span class="signal-dot safe-dot"></span><strong>IPQualityScore</strong><small>Reputación consultada</small></div>
+          </div>
+          <p class="demo-note">El color verde indica ausencia de señales en las fuentes consultadas; no es una garantía absoluta.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Características principales">
+      <div><strong>Análisis automático</strong><span>Sin abrir primero el popup</span></div>
+      <div><strong>Evidencia explicable</strong><span>Muestra qué fuente generó la alerta</span></div>
+      <div><strong>Backend protegido</strong><span>Las claves permanecen en Render</span></div>
+    </section>
+
+    <section class="section installation" id="instalar">
+      <div class="section-heading">
+        <p class="section-kicker">Instalación</p>
+        <h2>Lista en cuatro pasos</h2>
+        <p>Esta versión se distribuye como prueba académica. La instalación toma aproximadamente dos minutos y no requiere comandos.</p>
+      </div>
+
+      <ol class="steps">
+        <li>
+          <span class="step-number">1</span>
+          <div><h3>Descarga el ZIP</h3><p>Pulsa el botón de descarga y guarda <strong>Escudo-Transparente-v9.6.0.zip</strong>.</p></div>
+          <div class="step-visual file-visual"><span class="file-icon">ZIP</span><span>Escudo-Transparente-v9.6.0.zip</span></div>
+        </li>
+        <li>
+          <span class="step-number">2</span>
+          <div><h3>Descomprime el archivo</h3><p>Haz clic derecho sobre el ZIP, selecciona <strong>Extraer todo</strong> y abre la carpeta resultante.</p></div>
+          <div class="step-visual folder-visual"><span>📁</span><strong>Escudo-Transparente-v9.6.0</strong></div>
+        </li>
+        <li>
+          <span class="step-number">3</span>
+          <div><h3>Abre las extensiones</h3><p>Escribe <code>chrome://extensions</code> en la barra de direcciones y activa <strong>Modo de desarrollador</strong>.</p></div>
+          <div class="step-visual chrome-visual"><code>chrome://extensions</code><span class="toggle"><i></i></span></div>
+        </li>
+        <li>
+          <span class="step-number">4</span>
+          <div><h3>Carga la carpeta</h3><p>Pulsa <strong>Cargar extensión sin empaquetar</strong> y selecciona la carpeta que contiene <code>manifest.json</code>.</p></div>
+          <div class="step-visual action-visual"><span>＋</span><strong>Cargar extensión sin empaquetar</strong></div>
+        </li>
+      </ol>
+
+      <div class="callout">
+        <div><strong>¿Ya la instalaste?</strong><p>Fija el icono del escudo en la barra de Chrome para abrir los detalles rápidamente.</p></div>
+        <a class="button primary download-link" href="downloads/Escudo-Transparente-v9.6.0.zip" download>Descargar v9.6.0</a>
+      </div>
+    </section>
+
+    <section class="section how-it-works" id="usar">
+      <div class="section-heading">
+        <p class="section-kicker">Guía de uso</p>
+        <h2>La extensión trabaja mientras navegas</h2>
+        <p>No necesitas pegar enlaces ni iniciar un programa adicional. Abre una página normalmente y espera el resultado.</p>
+      </div>
+
+      <div class="flow" aria-label="Flujo de funcionamiento">
+        <div><span>1</span><strong>Visitas una página</strong><small>La URL se detecta automáticamente.</small></div>
+        <i aria-hidden="true">→</i>
+        <div><span>2</span><strong>Se consultan señales</strong><small>Reglas, modelo y reputación externa.</small></div>
+        <i aria-hidden="true">→</i>
+        <div><span>3</span><strong>Recibes una explicación</strong><small>Verde o rojo con evidencias.</small></div>
+      </div>
+
+      <div class="risk-guide">
+        <article class="risk-panel green">
+          <div class="risk-symbol">✓</div>
+          <div><p class="risk-label">Verde</p><h3>Sin señales evidentes</h3><p>No se encontraron indicadores de riesgo en las fuentes disponibles. Continúa atento al dominio y al contenido.</p></div>
+        </article>
+        <article class="risk-panel red">
+          <div class="risk-symbol">!</div>
+          <div><p class="risk-label">Rojo</p><h3>Revisa antes de continuar</h3><p>Se encontró una o más señales sospechosas. Si la evidencia es fuerte, Escudo Transparente bloquea el enlace y recomienda regresar.</p></div>
+        </article>
+      </div>
+
+      <div class="feature-grid">
+        <article><span>◎</span><h3>Abre el popup</h3><p>Pulsa el icono del escudo para ver el dominio, puntaje orientativo y fuentes consultadas.</p></article>
+        <article><span>↻</span><h3>Reintenta la consulta</h3><p>Si el servicio estaba iniciándose, entra en detalles y pulsa <strong>Reintentar consulta</strong>.</p></article>
+        <article><span>✉</span><h3>Revisa correos</h3><p>En Gmail y Outlook, los enlaces del mensaje reciben una indicación antes de abrirlos.</p></article>
+        <article><span>◷</span><h3>Consulta el historial</h3><p>Revisa los análisis recientes desde la opción de historial incluida en la extensión.</p></article>
+      </div>
+    </section>
+
+    <section class="section sources" id="fuentes">
+      <div class="section-heading">
+        <p class="section-kicker">Fuentes de análisis</p>
+        <h2>Una decisión construida con varias señales</h2>
+        <p>Las fuentes se combinan y cada evidencia conserva su origen. El modelo de IA se muestra como apoyo y no decide el color por sí solo.</p>
+      </div>
+      <div class="source-table" role="table" aria-label="Fuentes de detección">
+        <div class="source-row source-head" role="row"><span>Fuente</span><span>Qué aporta</span><span>Estado</span></div>
+        <div class="source-row" role="row"><strong>Reglas locales</strong><span>Revisa estructura de URL, formularios y señales visibles.</span><em class="active">Activa</em></div>
+        <div class="source-row" role="row"><strong>Modelo local</strong><span>Aporta una probabilidad complementaria, no una sentencia.</span><em class="active">Activo</em></div>
+        <div class="source-row" role="row"><strong>VirusTotal</strong><span>Consulta detecciones reportadas por motores de seguridad.</span><em class="active">Activa</em></div>
+        <div class="source-row" role="row"><strong>Google Safe Browsing</strong><span>Busca coincidencias con amenazas conocidas.</span><em class="active">Activa</em></div>
+        <div class="source-row" role="row"><strong>IPQualityScore</strong><span>Evalúa reputación, phishing, malware y nivel de riesgo.</span><em class="active">Activa</em></div>
+        <div class="source-row" role="row"><strong>PhishTank</strong><span>Compatible para reportes de phishing verificado.</span><em class="optional">Opcional</em></div>
+      </div>
+    </section>
+
+    <section class="section privacy" id="privacidad">
+      <div class="privacy-copy">
+        <p class="section-kicker">Privacidad por diseño</p>
+        <h2>Las claves están fuera de la extensión.</h2>
+        <p>Las credenciales de los servicios de reputación permanecen en el backend desplegado en Render. El paquete descargable no contiene API keys.</p>
+        <ul>
+          <li>No solicita ni almacena contraseñas.</li>
+          <li>No analiza el texto completo de tus correos.</li>
+          <li>Envía la URL necesaria para consultar su reputación.</li>
+          <li>Los bloqueos automáticos se conservan solo durante la sesión.</li>
+        </ul>
+        <a href="privacy.html">Leer aviso de privacidad completo →</a>
+      </div>
+      <div class="privacy-diagram" aria-label="Flujo de privacidad">
+        <div><span>Tu navegador</span><small>URL visitada</small></div>
+        <i>→</i>
+        <div class="secure-node"><span>Backend seguro</span><small>Claves protegidas</small></div>
+        <i>→</i>
+        <div><span>Fuentes externas</span><small>Reputación</small></div>
+      </div>
+    </section>
+
+    <section class="section faq" id="ayuda">
+      <div class="section-heading">
+        <p class="section-kicker">Ayuda</p>
+        <h2>Preguntas frecuentes</h2>
+      </div>
+      <div class="faq-list">
+        <details><summary>¿Tengo que instalar Python, Docker o usar PowerShell?</summary><p>No. El ZIP publicado ya está configurado para utilizar el backend remoto. Solo debes descomprimirlo y cargar la carpeta en Chrome.</p></details>
+        <details><summary>¿Por qué aparece “Servicio de análisis no disponible”?</summary><p>El servidor gratuito puede estar iniciándose. Espera unos segundos, abre nuevamente los detalles y pulsa <strong>Reintentar consulta</strong>.</p></details>
+        <details><summary>¿El color verde garantiza que una página es segura?</summary><p>No. Significa que no se encontraron señales en las fuentes consultadas. Verifica siempre el dominio antes de ingresar datos personales.</p></details>
+        <details><summary>¿Cómo actualizo la extensión?</summary><p>Descarga la versión nueva, reemplaza la carpeta anterior y pulsa <strong>Recargar</strong> en <code>chrome://extensions</code>.</p></details>
+        <details><summary>¿Por qué Chrome solicita activar el modo desarrollador?</summary><p>Esta es una distribución académica fuera de Chrome Web Store. Una publicación comercial futura permitirá instalarla desde la tienda.</p></details>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <img src="assets/escudo-128.png" alt="" width="72" height="72">
+      <div><p class="section-kicker">Escudo Transparente 9.6.0</p><h2>Instala, navega y revisa cada señal.</h2><p>Descarga la versión académica preparada para conectarse con el backend en la nube.</p></div>
+      <a class="button light download-link" href="downloads/Escudo-Transparente-v9.6.0.zip" download>Descargar ZIP</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand"><img src="assets/escudo-128.png" alt="" width="36" height="36"><span>Escudo <strong>Transparente</strong></span></div>
+    <p>Prototipo académico para detección explicable de señales de phishing.</p>
+    <div class="footer-links"><a href="#instalar">Manual</a><a href="privacy.html">Privacidad</a><a href="#ayuda">Ayuda</a></div>
+    <div class="checksum"><span>SHA-256</span><code id="checksum">d83908a7319a28509a8c69e6db3b1da6d0f518b81b1c6b09bead02b5cb1aa1cc</code><button id="copy-checksum" type="button">Copiar</button></div>
+    <p class="copyright">© 2026 Escudo Transparente. Un resultado automatizado no sustituye el criterio del usuario.</p>
+  </footer>
+
+  <div class="download-toast" id="download-toast" role="status" aria-live="polite">Descarga iniciada. Revisa tu carpeta de descargas.</div>
+  <div class="mobile-download"><a href="downloads/Escudo-Transparente-v9.6.0.zip" class="download-link" download>Descargar v9.6.0</a></div>
+  <script src="script.js"></script>
+</body>
+</html>

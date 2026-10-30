@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: escudo-transparente-web
+    runtime: static
+    buildCommand: echo "Sitio estático listo"
+    staticPublishPath: ./dist

@@ -1,0 +1,26 @@
+ESCUDO TRANSPARENTE v9.6.0
+===========================
+
+Esta versión ya está configurada para consultar el backend público del proyecto.
+No necesitas ejecutar PowerShell, Python, Docker ni colocar claves API.
+
+INSTALACIÓN EN GOOGLE CHROME
+1. Descomprime el archivo ZIP.
+2. Abre chrome://extensions en Chrome.
+3. Activa "Modo de desarrollador".
+4. Selecciona "Cargar extensión sin empaquetar".
+5. Elige esta carpeta: Escudo-Transparente-v9.6.0.
+
+USO
+- La extensión analiza automáticamente las páginas HTTP y HTTPS.
+- Abre el icono del escudo para ver el resultado y sus evidencias.
+- Verde significa que no se encontraron señales en las fuentes consultadas.
+- Rojo significa que se encontró al menos una señal que requiere revisión.
+- Un resultado no garantiza por sí solo que un sitio sea seguro o fraudulento.
+
+PRIVACIDAD
+- No incluyas claves API dentro de esta carpeta.
+- La extensión no solicita ni almacena contraseñas.
+- Las consultas de reputación se realizan mediante el backend del proyecto.
+
+Si la consulta remota tarda, espera unos segundos y pulsa "Reintentar consulta".
