@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Escudo Transparente",
-  "version": "9.6.0",
+  "version": "9.6.1",
   "description": "Prototipo de alertas explicables para enlaces sospechosos.",
   "icons": {
     "16": "icons/escudo-16.png",
@@ -16,6 +16,7 @@
     "storage"
   ],
   "host_permissions": [
+    "http://127.0.0.1:8765/*",
     "https://phishing-detection-extension-ax0o.onrender.com/*"
   ],
   "background": {

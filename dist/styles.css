@@ -5,6 +5,8 @@
   --blue-dark: #0b4eb8;
   --green: #0a8f62;
   --green-soft: #e7f7f0;
+  --yellow: #9a6900;
+  --yellow-soft: #fff7dc;
   --red: #c62b3d;
   --red-soft: #fff0f2;
   --ink: #17243a;
@@ -142,15 +144,18 @@ code { font-family: "SFMono-Regular", Consolas, monospace; }
 .flow strong, .flow small { display: block; }
 .flow small { margin-top: 5px; color: var(--muted); }
 .flow > i { color: #91a1b4; font-style: normal; font-size: 24px; }
-.risk-guide { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 36px; }
+.risk-guide { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 36px; }
 .risk-panel { display: grid; grid-template-columns: 62px 1fr; gap: 20px; padding: 28px; border-radius: 18px; }
 .risk-panel.green { background: var(--green-soft); border: 1px solid #bde9d6; }
+.risk-panel.yellow { background: var(--yellow-soft); border: 1px solid #e8c867; }
 .risk-panel.red { background: var(--red-soft); border: 1px solid #f0c4ca; }
 .risk-symbol { display: grid; place-items: center; width: 58px; height: 58px; color: white; border-radius: 18px; font-size: 26px; font-weight: 900; }
 .green .risk-symbol { background: var(--green); }
+.yellow .risk-symbol { background: var(--yellow); }
 .red .risk-symbol { background: var(--red); }
 .risk-label { margin: 0; font-size: 12px; font-weight: 900; text-transform: uppercase; letter-spacing: .08em; }
 .green .risk-label { color: var(--green); }
+.yellow .risk-label { color: var(--yellow); }
 .red .risk-label { color: var(--red); }
 .risk-panel h3 { margin: 3px 0 8px; font-size: 22px; }
 .risk-panel p:last-child { margin: 0; color: #536274; }

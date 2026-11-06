@@ -1,6 +1,6 @@
 # Escudo Transparente — página de descarga
 
-Este proyecto contiene la página pública para descargar e instalar **Escudo Transparente v9.6.0**.
+Este proyecto contiene la página pública para descargar e instalar **Escudo Transparente v9.6.1**.
 
 ## Estructura
 
@@ -11,9 +11,9 @@ Este proyecto contiene la página pública para descargar e instalar **Escudo Tr
 
 ## Abrirlo en VS Code
 
-1. Descomprime `Escudo-Transparente-Web-v9.6.0.zip`.
+1. Clona o descarga este repositorio.
 2. En VS Code selecciona **Archivo > Abrir carpeta**.
-3. Elige la carpeta `Escudo-Transparente-Web-v9.6.0`.
+3. Elige la carpeta `phishing_detection_web`.
 4. Abre `dist/index.html`.
 5. Para verlo como sitio web, instala la extensión **Live Server** de VS Code y usa **Open with Live Server** sobre `dist/index.html`.
 
@@ -42,5 +42,5 @@ El archivo `render.yaml` permite crear la misma configuración como Blueprint.
 - Las API keys siguen únicamente en el backend de Render.
 - La extensión incluida ya apunta a:
   `https://phishing-detection-extension-ax0o.onrender.com`
-- Si modificas la extensión, vuelve a crear el ZIP dentro de `dist/downloads/` y actualiza el SHA-256 mostrado en `dist/index.html`.
+- Si modificas la extensión, vuelve a crear `dist/downloads/Escudo-Transparente.zip`, sincroniza `extension-source/` y actualiza la versión y los textos en `dist/index.html`.
 
